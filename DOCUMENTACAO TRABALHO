@@ -1,0 +1,91 @@
+Desenvolvimento de Aplicativos Móveis com Flutter
+Disciplina: DGT2812 – Desenvolvimento de Aplicativos Móveis com Flutter
+
+Aluno: Thiago Colares Nehme
+Curso: Desenvolvimento Full Stack
+Instituição: Estácio de Sá
+
+
+
+1. Introdução
+Este trabalho prático tem como objetivo aplicar, de forma prática, os conceitos fundamentais do desenvolvimento de aplicações móveis utilizando o framework Flutter. Ao longo da atividade, foram utilizados widgets básicos, layouts, listas e funcionalidades personalizadas, conforme proposto nas microatividades da disciplina DGT2812.
+O aplicativo desenvolvido consiste em uma Lista de Tarefas, permitindo ao usuário inserir itens dinamicamente e visualizá-los por meio de uma interface funcional e organizada.
+
+2. Objetivos do Trabalho
+Os objetivos deste trabalho são:
+
+Compreender a estrutura básica de um aplicativo Flutter;
+Utilizar widgets fundamentais como MaterialApp, Scaffold, AppBar, Text e botões;
+Criar layouts utilizando widgets de organização visual;
+Utilizar o widget ListView para exibição de dados;
+Implementar funcionalidades personalizadas em widgets;
+Desenvolver uma aplicação funcional e executável.
+
+
+3. Preparação do Ambiente
+Devido a restrições de segurança do ambiente computacional, que impedem a instalação de softwares e a captura/envio de imagens (prints), foi utilizada a ferramenta DartPad, ambiente online oficial do Flutter, que permite o desenvolvimento e execução de aplicações diretamente via navegador.
+O DartPad possibilita:
+
+Escrita e execução de código Flutter;
+Visualização da aplicação em tempo real;
+Compartilhamento do projeto por meio de link público.
+
+Essa abordagem substitui de forma válida a instalação do Flutter SDK, IDE e emuladores locais.
+
+4. Ferramentas Utilizadas
+
+DartPad (Flutter Web): https://dartpad.dev
+Navegador Web: (Google Chrome / Edge / Firefox)
+Framework: Flutter
+Linguagem: Dart
+
+
+5. Estrutura do Aplicativo Desenvolvido
+O aplicativo foi desenvolvido utilizando os principais widgets do Flutter, conforme descrito abaixo:
+5.1 Widgets Fundamentais
+
+MaterialApp: Widget raiz da aplicação;
+Scaffold: Estrutura básica da tela;
+AppBar: Barra superior com título;
+Text: Exibição de textos;
+ElevatedButton: Botão de ação (substitui o widget RaisedButton, atualmente depreciado);
+TextField: Entrada de dados do usuário;
+ListView.builder: Exibição dinâmica de listas.
+
+
+6. Layout e Organização Visual
+A interface do aplicativo foi organizada utilizando widgets de layout como:
+
+Column: Organização vertical dos elementos;
+Padding e SizedBox: Espaçamentos adequados;
+Card e Icon: Melhor organização visual dos itens da lista.
+
+Essa composição permite uma interface limpa, organizada e funcional.
+
+7. Funcionalidade Personalizada
+Foi implementada uma funcionalidade personalizada por meio da função adicionarTarefa(), que:
+
+Captura o texto inserido pelo usuário;
+Adiciona o conteúdo a uma lista interna;
+Atualiza a interface dinamicamente utilizando o método setState().
+
+Essa funcionalidade demonstra o controle de estado da aplicação e a interação entre usuário e interface gráfica.
+
+8. Uso do Widget ListView
+O widget ListView.builder foi utilizado para a exibição das tarefas cadastradas. Esse widget permite que os itens sejam renderizados de forma dinâmica e eficiente, atendendo ao requisito de gerenciamento de listas de dados no Flutter.
+
+9. Execução e Validação da Aplicação
+A execução da aplicação pode ser verificada por meio do link compartilhado do DartPad, que permite visualizar o código-fonte completo e executar o aplicativo diretamente no navegador:
+🔗 Link do Projeto:
+(colar aqui o link gerado no DartPad – botão “Share”)
+
+10. Justificativa da Ausência de Prints
+Devido a restrições do ambiente computacional utilizado, não foi possível realizar a captura e o envio de imagens (prints) da aplicação.
+Como alternativa, foi disponibilizado o link público do DartPad, que permite a visualização e execução completa da aplicação, suprindo a necessidade de registros visuais estáticos.
+
+11. Considerações Finais
+O desenvolvimento do aplicativo possibilitou a aplicação prática dos principais conceitos abordados na disciplina, consolidando o entendimento sobre a estrutura do Flutter, utilização de widgets básicos, organização de layouts, exibição de listas e implementação de funcionalidades personalizadas.
+O uso do DartPad demonstrou ser uma solução eficaz para ambientes com limitações técnicas, sem comprometer a qualidade e a funcionalidade da aplicação desenvolvida.
+
+12. Referências
+Não foram utilizadas referências bibliográficas externas para a elaboração deste trabalho, sendo todo o conteúdo baseado nos materiais fornecidos pela disciplina e na documentação oficial do Flutter.
